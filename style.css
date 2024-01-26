@@ -1,0 +1,197 @@
+/* body{
+    background-color: #011627;
+    color: #F6F7F8;
+    margin: 0
+} */
+
+/* --------Gradient Background-------- */
+
+body{
+    height: 2000px;
+    background-color: #011627; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #011627, rgb(108, 75, 162));
+    background-repeat: no-repeat;
+    color: #F6F7F8;
+    margin: 0;
+}
+
+/* --------banner--------- */
+#bannerimage{
+    width: 100%;
+    background-image: url(images/keyboardbanner.jpg);
+    height: 500px;
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #F7B2AD;
+}
+
+.bannercontainer{
+    position: relative;
+    display: flex;
+}
+
+.bannertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    padding-top: 2em;
+    color:#F7B2AD;
+    background-color: #000; 
+    opacity: .8;
+    padding: 10px; 
+}
+
+/* ----------navbar---------- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2A0C4E;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  /* -----------Body---------- */
+
+.bodycontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.bodycontainer p1{
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.aboutme h1{
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.imgcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.imgcontainer img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 5px #F6F7F8;
+}
+
+
+
+
+
+
+
+/* ------------------------------   CONTACT PAGE ----------------------------- */
+header img{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/keyboardbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #F7B2AD;
+}
+
+.contactcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.contactcontainer h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin h2{
+    font-size: 5em;
+}
+
+/* ----------Contact Field-----------  */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+/* ------------------------------   PROJECTS PAGE ----------------------------- */
+
+.projectcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
