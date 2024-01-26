@@ -121,11 +121,15 @@ ul {
 /* --------Skills---------  */
 
 .skillcontainer{
+    border: solid 5px #F7B2AD;
+    border-radius: 20px;
+    margin: 0 10em 0 10em;
+    background:rgb(25, 20, 32);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 2em;
+    padding: 1em;
     font-size: 10em;
 }
 
