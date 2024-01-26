@@ -4,10 +4,13 @@
     margin: 0
 } */
 
+/* ------------------------------   HOME PAGE ----------------------------- */
+
+
 /* --------Gradient Background-------- */
 
 body{
-    height: 2000px;
+    height: 100%;
     background-color: #011627; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, #011627, rgb(108, 75, 162));
     background-repeat: no-repeat;
@@ -115,7 +118,16 @@ ul {
 }
 
 
+/* --------Skills---------  */
 
+.skillcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    font-size: 10em;
+}
 
 
 
