@@ -243,6 +243,22 @@ input[type=submit]:hover {
     font-size: 3em;
 }
 
+.project1{
+    display: flex;
+    flex-direction: column; /* Change this from row to column */
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+.project1 p1{
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
 
 /* ------------------------------   RESPONSIVENESS ----------------------------- */
 
@@ -299,9 +315,28 @@ input[type=submit]:hover {
 
 
 .project1 img{
-    height: 30%;
-    width: 30%
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+
+}
+
+.project1 p1{
+    font-size: 1.3em;
+    padding: 5px; 
 }
 
 
+
+/* -------------- CONTACT ------------------ */
+.contactcontainer img{
+    width: 70%;
+    height: 70%;
+}
+.contactcontainer h1{
+    font-size: 2em;
+}
+.linkedin h2{
+    font-size: 1.6em
+}
 }
