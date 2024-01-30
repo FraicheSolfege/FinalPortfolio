@@ -242,3 +242,66 @@ input[type=submit]:hover {
 .projecttext{
     font-size: 3em;
 }
+
+
+/* ------------------------------   RESPONSIVENESS ----------------------------- */
+
+/* ----------------- HOME ---------------- */
+@media only screen and (max-width: 600px) {
+
+
+    .bannercontainer img{
+        height: 70%;
+    }
+
+    .bannertext{
+        font-size: 1em;
+    }
+
+    .bodycontainer h1{
+        font-size: 2em; 
+    }
+
+    .aboutme h1{
+        font-size: 3em; 
+    }
+
+
+    .imgcontainer img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: solid 5px #F6F7F8;
+        
+    }
+    .aboutme p1{
+        font-size: 1em; 
+        padding: 5px; 
+    }
+
+
+    .projectcontainer {
+        flex-direction: column; 
+        padding: 1em; 
+    }
+
+    .projectcontainer h1 {
+        font-size: 2em; 
+    }
+
+    .skillcontainer{
+        font-size: 2em;
+    }
+
+
+
+/* ----------------- PROJECTS ---------------- */
+
+
+.project1 img{
+    height: 30%;
+    width: 30%
+}
+
+
+}
