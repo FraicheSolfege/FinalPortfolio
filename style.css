@@ -278,7 +278,7 @@ input[type=submit]:hover {
 
 .project1{
     display: flex;
-    flex-direction: column; /* Change this from row to column */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     padding: 2em;
@@ -292,6 +292,109 @@ input[type=submit]:hover {
     padding-right: 10em;
 }
 
+
+
+
+
+
+
+
+/* ------------------------------   RESPONSIVENESS  1128----------------------------- */
+
+@media only screen and (max-width: 1128px) {
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5em;
+      }
+
+/* ----------------- HOME ---------------- */
+.bannercontainer img{
+    height: 350px
+    }
+
+    .bannertext{
+        font-size: 3.5em;
+    }
+
+    .bodycontainer p1{
+        font-size: 2.6em;
+        padding: 5px; 
+    }
+
+    .skillcontainer{
+        font-size: 4.8em;
+        padding: .5em;
+    }
+
+
+
+
+/* ---------------- PROJECTS ------------- */
+.project1 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 8%;
+}
+
+.project1 p1{
+    font-size: 2.5em;
+    padding: 5px; 
+}
+}
+
+/* ------------------------------   RESPONSIVENESS  768px----------------------------- */
+/* -----------------NAVBAR RESPONSIVENESS --------------*/
+@media only screen and (max-width: 768px) {
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1em;
+      }
+
+
+/* ----------------- HOME ---------------- */
+.bannercontainer img{
+    height: 350px
+    }
+
+    .bannertext{
+        font-size: 3.5em;
+    }
+
+    .bodycontainer p1{
+        font-size: 2em;
+        padding: 5px; 
+    }
+
+    .skillcontainer{
+        font-size: 2.6em;
+        padding: .5em;
+    }
+
+
+
+
+
+/* ----------------- PROJECTS -------------- */
+.project1 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 8%;
+}
+.project1 p1{
+    font-size: 2em;
+    padding: 5px; 
+}
+
+
+}
 
 /* ------------------------------   RESPONSIVENESS  600px----------------------------- */
 /* -----------------NAVBAR RESPONSIVENESS --------------*/
@@ -336,7 +439,7 @@ input[type=submit]:hover {
         
     }
     .aboutme p1{
-        font-size: .4em; 
+        font-size: 1.8em; 
         padding: 5px; 
     }
 
@@ -351,7 +454,7 @@ input[type=submit]:hover {
     }
 
     .skillcontainer{
-        font-size: 2.5em;
+        font-size: 4em;
         padding: .5em;
     }
 
@@ -394,106 +497,6 @@ input[type=submit]:hover {
     font-size: 2em;
 }
 }
-
-/* ------------------------------   RESPONSIVENESS  768px----------------------------- */
-/* -----------------NAVBAR RESPONSIVENESS --------------*/
-@media only screen and (max-width: 768px) {
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 1em;
-      }
-
-
-/* ----------------- HOME ---------------- */
-.bannercontainer img{
-    height: 350px
-    }
-
-    .bannertext{
-        font-size: 3.5em;
-    }
-
-    .bodycontainer p1{
-        font-size: 2em;
-
-        padding: 5px; 
-    }
-
-    .skillcontainer{
-        font-size: 6em;
-        padding: .5em;
-    }
-
-
-
-
-
-/* ----------------- PROJECTS -------------- */
-.project1 img{
-    width: 300px;
-    height: 300px;
-    margin-left: 8%;
-}
-.project1 p1{
-    font-size: 2em;
-    padding: 5px; 
-}
-
-
-}
-
-
-/* ------------------------------   RESPONSIVENESS  1128----------------------------- */
-
-@media only screen and (max-width: 1128px) {
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 1.5em;
-      }
-
-/* ----------------- HOME ---------------- */
-.bannercontainer img{
-    height: 350px
-    }
-
-    .bannertext{
-        font-size: 3.5em;
-    }
-
-    .bodycontainer p1{
-        font-size: 2.6em;
-        padding: 5px; 
-    }
-
-    .skillcontainer{
-        font-size: 8em;
-        padding: .5em;
-    }
-
-
-
-
-/* ---------------- PROJECTS ------------- */
-.project1 img{
-    width: 300px;
-    height: 300px;
-    margin-left: 8%;
-}
-
-.project1 p1{
-    font-size: 2.5em;
-    padding: 5px; 
-}
-}
-
 
 /* ------------------------------   RESPONSIVENESS  480px----------------------------- */
 
@@ -554,4 +557,5 @@ input[type=submit]:hover {
 
 .contactme h3{
     font-size: 1.5em;
+}
 }
