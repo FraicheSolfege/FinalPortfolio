@@ -49,7 +49,9 @@ body{
     opacity: .8;
     padding: 10px; 
 }
-
+span{
+    color: #f7add8
+}
 /* ----------navbar---------- */
 ul {
     width: 100%;
@@ -127,16 +129,28 @@ ul {
     border: solid 5px #F7B2AD;
     border-radius: 20px;
     margin: 0 10em 0 10em;
-    background:rgb(25, 20, 32);
+    background:#2A0C4E;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: .6em;
     font-size: 10em;
     transform: scale(0.8)
 }
 
+.bodycontainer h3{
+    font-size: 3em;
+}
+
+.devicon--replit {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='%23F26207' d='M11 8c0-2.122.845-4.157 2.35-5.657A8.037 8.037 0 0 1 19.026 0h37.45a8.04 8.04 0 0 1 5.675 2.343A7.987 7.987 0 0 1 64.5 8v34.667H19.025a8.037 8.037 0 0 1-5.674-2.343A7.987 7.987 0 0 1 11 34.666zm53.5 34.667h45.475a8.04 8.04 0 0 1 5.675 2.343a7.987 7.987 0 0 1 2.35 5.657v26.666a7.987 7.987 0 0 1-2.35 5.657a8.04 8.04 0 0 1-5.675 2.343H64.5zM11 93.333c0-2.121.845-4.156 2.35-5.656a8.037 8.037 0 0 1 5.675-2.344H64.5V120a7.987 7.987 0 0 1-2.35 5.657A8.039 8.039 0 0 1 56.475 128h-37.45a8.039 8.039 0 0 1-5.674-2.343A7.987 7.987 0 0 1 11 120z'/%3E%3C/svg%3E");
+  }
 
 
 
@@ -171,7 +185,7 @@ header img{
 
 .cardcontainer{
     background: #2A0C4E;
-    border: 10px pink;
+    border: 5px solid #F7B2AD;
     border-radius: 20px;
     padding: .5em;
     margin-bottom: 1em;
@@ -281,6 +295,8 @@ input[type=submit]:hover {
 
 /* ------------------------------   RESPONSIVENESS ----------------------------- */
 /* -----------------NAVBAR RESPONSIVENESS --------------*/
+
+
 @media only screen and (max-width: 600px) {
     li a {
         display: block;
