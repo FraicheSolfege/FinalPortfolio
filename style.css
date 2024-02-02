@@ -351,7 +351,7 @@ input[type=submit]:hover {
     }
 
     .skillcontainer{
-        font-size: 3.4em;
+        font-size: 2.5em;
         padding: .5em;
     }
 
@@ -445,4 +445,52 @@ input[type=submit]:hover {
 }
 
 
+}
+
+
+/* ------------------------------   RESPONSIVENESS  1128----------------------------- */
+
+@media only screen and (max-width: 1128px) {
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5em;
+      }
+
+/* ----------------- HOME ---------------- */
+.bannercontainer img{
+    height: 350px
+    }
+
+    .bannertext{
+        font-size: 3.5em;
+    }
+
+    .bodycontainer p1{
+        font-size: 2.6em;
+        padding: 5px; 
+    }
+
+    .skillcontainer{
+        font-size: 8em;
+        padding: .5em;
+    }
+
+
+
+
+/* ---------------- PROJECTS ------------- */
+.project1 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 8%;
+}
+
+.project1 p1{
+    font-size: 2.5em;
+    padding: 5px; 
+}
 }
