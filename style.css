@@ -293,7 +293,7 @@ input[type=submit]:hover {
 }
 
 
-/* ------------------------------   RESPONSIVENESS ----------------------------- */
+/* ------------------------------   RESPONSIVENESS  600px----------------------------- */
 /* -----------------NAVBAR RESPONSIVENESS --------------*/
 
 
@@ -304,7 +304,7 @@ input[type=submit]:hover {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: .8em
+        font-size: .8em;
       }
 
 /* ----------------- HOME ---------------- */
@@ -351,8 +351,10 @@ input[type=submit]:hover {
     }
 
     .skillcontainer{
-        font-size: 2em;
+        font-size: 3.4em;
+        padding: .5em;
     }
+
 
 
 
@@ -392,4 +394,55 @@ input[type=submit]:hover {
     background-color: #2A0C4E;
     font-size: 2em;
 }
+}
+
+/* ------------------------------   RESPONSIVENESS  768px----------------------------- */
+/* -----------------NAVBAR RESPONSIVENESS --------------*/
+@media only screen and (max-width: 768px) {
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1em;
+      }
+
+
+/* ----------------- HOME ---------------- */
+.bannercontainer img{
+    height: 350px
+    }
+
+    .bannertext{
+        font-size: 3.5em;
+    }
+
+    .bodycontainer p1{
+        font-size: 2em;
+
+        padding: 5px; 
+    }
+
+    .skillcontainer{
+        font-size: 6em;
+        padding: .5em;
+    }
+
+
+
+
+
+/* ----------------- PROJECTS -------------- */
+.project1 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 8%;
+}
+.project1 p1{
+    font-size: 2em;
+    padding: 5px; 
+}
+
+
 }
