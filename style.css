@@ -326,7 +326,7 @@ input[type=submit]:hover {
     }
 
     .skillcontainer{
-        font-size: 4.8em;
+        font-size: 7.3em;
         padding: .5em;
     }
 
@@ -365,7 +365,7 @@ input[type=submit]:hover {
     }
 
     .bannertext{
-        font-size: 3.5em;
+        font-size: 3em;
     }
 
     .bodycontainer p1{
@@ -374,7 +374,7 @@ input[type=submit]:hover {
     }
 
     .skillcontainer{
-        font-size: 2.6em;
+        font-size: 5.6em;
         padding: .5em;
     }
 
@@ -415,7 +415,7 @@ input[type=submit]:hover {
 
 
     .bannercontainer img{
-        height: 120px;
+        height: 200px;
     }
 
     .bannertext{
