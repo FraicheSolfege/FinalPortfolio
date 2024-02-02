@@ -305,14 +305,14 @@ input[type=submit]:hover {
         padding: 14px 16px;
         text-decoration: none;
         font-size: .8em;
-      }
+    }
 
 /* ----------------- HOME ---------------- */
 
 
 
     .bannercontainer img{
-        height: 130px;
+        height: 120px;
     }
 
     .bannertext{
@@ -336,7 +336,7 @@ input[type=submit]:hover {
         
     }
     .aboutme p1{
-        font-size: 1em; 
+        font-size: .4em; 
         padding: 5px; 
     }
 
@@ -354,7 +354,6 @@ input[type=submit]:hover {
         font-size: 2.5em;
         padding: .5em;
     }
-
 
 
 
@@ -493,4 +492,66 @@ input[type=submit]:hover {
     font-size: 2.5em;
     padding: 5px; 
 }
+}
+
+
+/* ------------------------------   RESPONSIVENESS  480px----------------------------- */
+
+@media only screen and (max-width: 480px) {
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: .9em;
+        
+      }
+
+/* ----------------- HOME ---------------- */
+.bannercontainer img{
+    height: 200px
+    }
+
+    .bannertext{
+        font-size: 1.5em;
+    }
+
+    .bodycontainer p1{
+        font-size: 1.2em;
+        padding: 5px; 
+        line-height: 1.4em;
+    }
+
+    .skillcontainer{
+        font-size: 3em;
+        padding: .5em;
+    }
+
+
+
+/* ---------------- PROJECTS ------------- */
+.project1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 8%;
+}
+
+.project1 p1{
+    font-size: 1.1em;
+    padding: 5px; 
+}
+
+/* ---------------- CONTACT -------------- */
+.contactcontainer img{
+    width: 70%;
+    height: 100%;
+}
+
+.contactcontainer h1{
+    font-size: 2em;
+}
+
+.contactme h3{
+    font-size: 1.5em;
 }
